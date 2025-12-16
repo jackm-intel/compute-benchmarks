@@ -1,0 +1,6607 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-06T01:29:19.681505",
+    "iterations": 10,
+    "device_info": {
+      "device_name": "Unknown",
+      "driver_version": "Unknown"
+    }
+  },
+  "benchmarks": {
+    "api_overhead_benchmark_l0/UsmMemoryAllocation": [
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=4 measureMode=Allocate)",
+        "Mean": 0.131,
+        "Median": 0.122,
+        "StdDev": "16.95%",
+        "Min": 0.115,
+        "Max": 0.193,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=4 measureMode=Free)",
+        "Mean": 0.558,
+        "Median": 0.54,
+        "StdDev": "7.96%",
+        "Min": 0.531,
+        "Max": 0.682,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=4 measureMode=Both)",
+        "Mean": 0.816,
+        "Median": 0.778,
+        "StdDev": "12.47%",
+        "Min": 0.766,
+        "Max": 1.117,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=64 measureMode=Allocate)",
+        "Mean": 0.339,
+        "Median": 0.322,
+        "StdDev": "13.37%",
+        "Min": 0.316,
+        "Max": 0.473,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=64 measureMode=Free)",
+        "Mean": 0.713,
+        "Median": 0.688,
+        "StdDev": "7.88%",
+        "Min": 0.674,
+        "Max": 0.861,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=64 measureMode=Both)",
+        "Mean": 1.037,
+        "Median": 0.997,
+        "StdDev": "10.85%",
+        "Min": 0.974,
+        "Max": 1.367,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=512 measureMode=Allocate)",
+        "Mean": 0.421,
+        "Median": 0.417,
+        "StdDev": "4.16%",
+        "Min": 0.409,
+        "Max": 0.472,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=512 measureMode=Free)",
+        "Mean": 0.696,
+        "Median": 0.687,
+        "StdDev": "3.53%",
+        "Min": 0.679,
+        "Max": 0.764,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=512 measureMode=Both)",
+        "Mean": 0.915,
+        "Median": 0.903,
+        "StdDev": "2.85%",
+        "Min": 0.891,
+        "Max": 0.976,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=4KB measureMode=Allocate)",
+        "Mean": 0.642,
+        "Median": 0.635,
+        "StdDev": "6.72%",
+        "Min": 0.584,
+        "Max": 0.716,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=4KB measureMode=Free)",
+        "Mean": 0.686,
+        "Median": 0.681,
+        "StdDev": "2.17%",
+        "Min": 0.672,
+        "Max": 0.72,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=4KB measureMode=Both)",
+        "Mean": 0.998,
+        "Median": 0.984,
+        "StdDev": "2.54%",
+        "Min": 0.974,
+        "Max": 1.053,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=64KB measureMode=Allocate)",
+        "Mean": 0.432,
+        "Median": 0.414,
+        "StdDev": "10.03%",
+        "Min": 0.411,
+        "Max": 0.559,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=64KB measureMode=Free)",
+        "Mean": 0.717,
+        "Median": 0.684,
+        "StdDev": "11.14%",
+        "Min": 0.677,
+        "Max": 0.951,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=64KB measureMode=Both)",
+        "Mean": 1.037,
+        "Median": 0.995,
+        "StdDev": "9.59%",
+        "Min": 0.983,
+        "Max": 1.326,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=512KB measureMode=Allocate)",
+        "Mean": 0.453,
+        "Median": 0.417,
+        "StdDev": "18.74%",
+        "Min": 0.412,
+        "Max": 0.701,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=512KB measureMode=Free)",
+        "Mean": 0.741,
+        "Median": 0.712,
+        "StdDev": "10.34%",
+        "Min": 0.699,
+        "Max": 0.967,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=512KB measureMode=Both)",
+        "Mean": 1.074,
+        "Median": 1.026,
+        "StdDev": "12.56%",
+        "Min": 1.0,
+        "Max": 1.471,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=4MB measureMode=Allocate)",
+        "Mean": 0.63,
+        "Median": 0.436,
+        "StdDev": "91.99%",
+        "Min": 0.401,
+        "Max": 2.366,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=4MB measureMode=Free)",
+        "Mean": 0.74,
+        "Median": 0.723,
+        "StdDev": "6.29%",
+        "Min": 0.709,
+        "Max": 0.874,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=4MB measureMode=Both)",
+        "Mean": 1.066,
+        "Median": 1.041,
+        "StdDev": "5.52%",
+        "Min": 1.007,
+        "Max": 1.207,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=64MB measureMode=Allocate)",
+        "Mean": 0.639,
+        "Median": 0.461,
+        "StdDev": "83.94%",
+        "Min": 0.415,
+        "Max": 2.242,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=64MB measureMode=Free)",
+        "Mean": 0.752,
+        "Median": 0.726,
+        "StdDev": "7.76%",
+        "Min": 0.709,
+        "Max": 0.908,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=64MB measureMode=Both)",
+        "Mean": 1.085,
+        "Median": 1.046,
+        "StdDev": "10.41%",
+        "Min": 1.001,
+        "Max": 1.4,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=512MB measureMode=Allocate)",
+        "Mean": 41610.068,
+        "Median": 41289.749,
+        "StdDev": "1.53%",
+        "Min": 41104.153,
+        "Max": 43052.846,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=512MB measureMode=Free)",
+        "Mean": 1384.603,
+        "Median": 991.394,
+        "StdDev": "49.39%",
+        "Min": 863.69,
+        "Max": 2607.941,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=512MB measureMode=Both)",
+        "Mean": 42692.826,
+        "Median": 42132.637,
+        "StdDev": "2.54%",
+        "Min": 41811.674,
+        "Max": 45455.691,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=1GB measureMode=Allocate)",
+        "Mean": 80980.827,
+        "Median": 80629.874,
+        "StdDev": "0.92%",
+        "Min": 80471.341,
+        "Max": 82578.841,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=1GB measureMode=Free)",
+        "Mean": 1771.539,
+        "Median": 1454.083,
+        "StdDev": "34.47%",
+        "Min": 1328.277,
+        "Max": 3034.101,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Host size=1GB measureMode=Both)",
+        "Mean": 83175.243,
+        "Median": 82751.357,
+        "StdDev": "1.79%",
+        "Min": 81990.262,
+        "Max": 87233.29,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=4 measureMode=Allocate)",
+        "Mean": 0.799,
+        "Median": 0.756,
+        "StdDev": "52.48%",
+        "Min": 0.499,
+        "Max": 1.994,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=4 measureMode=Free)",
+        "Mean": 0.665,
+        "Median": 0.644,
+        "StdDev": "9.56%",
+        "Min": 0.634,
+        "Max": 0.855,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=4 measureMode=Both)",
+        "Mean": 1.623,
+        "Median": 1.592,
+        "StdDev": "4.59%",
+        "Min": 1.57,
+        "Max": 1.828,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=64 measureMode=Allocate)",
+        "Mean": 1.095,
+        "Median": 1.056,
+        "StdDev": "7.44%",
+        "Min": 1.031,
+        "Max": 1.289,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=64 measureMode=Free)",
+        "Mean": 0.657,
+        "Median": 0.647,
+        "StdDev": "3.94%",
+        "Min": 0.637,
+        "Max": 0.732,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=64 measureMode=Both)",
+        "Mean": 1.669,
+        "Median": 1.613,
+        "StdDev": "7.73%",
+        "Min": 1.589,
+        "Max": 2.026,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=512 measureMode=Allocate)",
+        "Mean": 1.107,
+        "Median": 1.063,
+        "StdDev": "9.92%",
+        "Min": 1.027,
+        "Max": 1.392,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=512 measureMode=Free)",
+        "Mean": 0.656,
+        "Median": 0.645,
+        "StdDev": "4.62%",
+        "Min": 0.64,
+        "Max": 0.744,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=512 measureMode=Both)",
+        "Mean": 3.077,
+        "Median": 2.804,
+        "StdDev": "21.57%",
+        "Min": 2.457,
+        "Max": 4.721,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=4KB measureMode=Allocate)",
+        "Mean": 1.385,
+        "Median": 1.152,
+        "StdDev": "45.03%",
+        "Min": 1.125,
+        "Max": 3.245,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=4KB measureMode=Free)",
+        "Mean": 0.911,
+        "Median": 0.919,
+        "StdDev": "7.16%",
+        "Min": 0.784,
+        "Max": 1.029,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=4KB measureMode=Both)",
+        "Mean": 1.744,
+        "Median": 1.678,
+        "StdDev": "8.15%",
+        "Min": 1.649,
+        "Max": 2.134,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=64KB measureMode=Allocate)",
+        "Mean": 1.177,
+        "Median": 1.112,
+        "StdDev": "12.60%",
+        "Min": 1.077,
+        "Max": 1.589,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=64KB measureMode=Free)",
+        "Mean": 0.66,
+        "Median": 0.651,
+        "StdDev": "4.63%",
+        "Min": 0.637,
+        "Max": 0.749,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=64KB measureMode=Both)",
+        "Mean": 1.757,
+        "Median": 1.679,
+        "StdDev": "9.81%",
+        "Min": 1.643,
+        "Max": 2.224,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=512KB measureMode=Allocate)",
+        "Mean": 1.401,
+        "Median": 1.152,
+        "StdDev": "47.86%",
+        "Min": 1.118,
+        "Max": 3.403,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=512KB measureMode=Free)",
+        "Mean": 0.658,
+        "Median": 0.652,
+        "StdDev": "3.95%",
+        "Min": 0.641,
+        "Max": 0.734,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=512KB measureMode=Both)",
+        "Mean": 1.688,
+        "Median": 1.653,
+        "StdDev": "5.18%",
+        "Min": 1.627,
+        "Max": 1.932,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=4MB measureMode=Allocate)",
+        "Mean": 1.404,
+        "Median": 1.158,
+        "StdDev": "50.69%",
+        "Min": 1.09,
+        "Max": 3.53,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=4MB measureMode=Free)",
+        "Mean": 0.669,
+        "Median": 0.661,
+        "StdDev": "4.39%",
+        "Min": 0.648,
+        "Max": 0.753,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=4MB measureMode=Both)",
+        "Mean": 1.752,
+        "Median": 1.679,
+        "StdDev": "8.96%",
+        "Min": 1.643,
+        "Max": 2.192,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=64MB measureMode=Allocate)",
+        "Mean": 1.193,
+        "Median": 1.104,
+        "StdDev": "18.66%",
+        "Min": 1.071,
+        "Max": 1.845,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=64MB measureMode=Free)",
+        "Mean": 0.654,
+        "Median": 0.651,
+        "StdDev": "2.59%",
+        "Min": 0.643,
+        "Max": 0.704,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=64MB measureMode=Both)",
+        "Mean": 2.346,
+        "Median": 1.653,
+        "StdDev": "85.86%",
+        "Min": 1.636,
+        "Max": 8.388,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=512MB measureMode=Allocate)",
+        "Mean": 5397.595,
+        "Median": 4705.778,
+        "StdDev": "48.44%",
+        "Min": 2292.113,
+        "Max": 11030.211,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=512MB measureMode=Free)",
+        "Mean": 17.335,
+        "Median": 9.111,
+        "StdDev": "76.47%",
+        "Min": 7.719,
+        "Max": 37.957,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=512MB measureMode=Both)",
+        "Mean": 2093.001,
+        "Median": 1592.497,
+        "StdDev": "47.69%",
+        "Min": 1572.44,
+        "Max": 4219.482,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=1GB measureMode=Allocate)",
+        "Mean": 3443.152,
+        "Median": 3237.756,
+        "StdDev": "14.39%",
+        "Min": 3099.444,
+        "Max": 4735.7,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=1GB measureMode=Free)",
+        "Mean": 11.828,
+        "Median": 10.477,
+        "StdDev": "24.42%",
+        "Min": 9.227,
+        "Max": 17.937,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Device size=1GB measureMode=Both)",
+        "Mean": 5787.524,
+        "Median": 6771.155,
+        "StdDev": "32.57%",
+        "Min": 3302.753,
+        "Max": 7932.699,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=4 measureMode=Allocate)",
+        "Mean": 189.833,
+        "Median": 184.921,
+        "StdDev": "9.48%",
+        "Min": 167.371,
+        "Max": 228.88,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=4 measureMode=Free)",
+        "Mean": 33.495,
+        "Median": 32.937,
+        "StdDev": "4.71%",
+        "Min": 32.359,
+        "Max": 37.608,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=4 measureMode=Both)",
+        "Mean": 227.013,
+        "Median": 214.207,
+        "StdDev": "16.54%",
+        "Min": 196.85,
+        "Max": 329.331,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=64 measureMode=Allocate)",
+        "Mean": 562.291,
+        "Median": 567.135,
+        "StdDev": "10.61%",
+        "Min": 458.143,
+        "Max": 663.109,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=64 measureMode=Free)",
+        "Mean": 106.15,
+        "Median": 93.457,
+        "StdDev": "23.04%",
+        "Min": 90.202,
+        "Max": 161.624,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=64 measureMode=Both)",
+        "Mean": 651.533,
+        "Median": 658.841,
+        "StdDev": "5.08%",
+        "Min": 574.737,
+        "Max": 707.19,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=512 measureMode=Allocate)",
+        "Mean": 587.297,
+        "Median": 569.042,
+        "StdDev": "14.87%",
+        "Min": 501.531,
+        "Max": 841.413,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=512 measureMode=Free)",
+        "Mean": 95.321,
+        "Median": 92.916,
+        "StdDev": "7.36%",
+        "Min": 90.065,
+        "Max": 114.927,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=512 measureMode=Both)",
+        "Mean": 659.843,
+        "Median": 661.234,
+        "StdDev": "5.33%",
+        "Min": 582.514,
+        "Max": 730.753,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=4KB measureMode=Allocate)",
+        "Mean": 553.49,
+        "Median": 554.686,
+        "StdDev": "16.77%",
+        "Min": 434.707,
+        "Max": 763.944,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=4KB measureMode=Free)",
+        "Mean": 97.327,
+        "Median": 92.671,
+        "StdDev": "10.29%",
+        "Min": 90.426,
+        "Max": 121.062,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=4KB measureMode=Both)",
+        "Mean": 656.717,
+        "Median": 661.823,
+        "StdDev": "8.43%",
+        "Min": 552.752,
+        "Max": 754.268,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=64KB measureMode=Allocate)",
+        "Mean": 555.889,
+        "Median": 562.87,
+        "StdDev": "8.21%",
+        "Min": 462.119,
+        "Max": 627.141,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=64KB measureMode=Free)",
+        "Mean": 168.659,
+        "Median": 175.851,
+        "StdDev": "33.01%",
+        "Min": 91.788,
+        "Max": 254.494,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=64KB measureMode=Both)",
+        "Mean": 1028.193,
+        "Median": 903.371,
+        "StdDev": "24.54%",
+        "Min": 815.72,
+        "Max": 1644.754,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=512KB measureMode=Allocate)",
+        "Mean": 503.994,
+        "Median": 498.647,
+        "StdDev": "19.70%",
+        "Min": 370.174,
+        "Max": 673.17,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=512KB measureMode=Free)",
+        "Mean": 167.666,
+        "Median": 171.517,
+        "StdDev": "21.02%",
+        "Min": 106.272,
+        "Max": 245.679,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=512KB measureMode=Both)",
+        "Mean": 780.582,
+        "Median": 784.637,
+        "StdDev": "16.13%",
+        "Min": 593.381,
+        "Max": 1002.462,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=4MB measureMode=Allocate)",
+        "Mean": 833.587,
+        "Median": 764.396,
+        "StdDev": "26.32%",
+        "Min": 574.534,
+        "Max": 1239.206,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=4MB measureMode=Free)",
+        "Mean": 128.63,
+        "Median": 133.445,
+        "StdDev": "47.85%",
+        "Min": 53.258,
+        "Max": 264.088,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=4MB measureMode=Both)",
+        "Mean": 1149.059,
+        "Median": 1215.657,
+        "StdDev": "10.21%",
+        "Min": 909.452,
+        "Max": 1240.446,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=64MB measureMode=Allocate)",
+        "Mean": 5497.817,
+        "Median": 5123.326,
+        "StdDev": "19.78%",
+        "Min": 5018.792,
+        "Max": 8738.9,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=64MB measureMode=Free)",
+        "Mean": 129.061,
+        "Median": 125.08,
+        "StdDev": "7.73%",
+        "Min": 118.689,
+        "Max": 154.269,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=64MB measureMode=Both)",
+        "Mean": 5203.604,
+        "Median": 5210.845,
+        "StdDev": "1.60%",
+        "Min": 5037.654,
+        "Max": 5353.72,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=512MB measureMode=Allocate)",
+        "Mean": 42793.065,
+        "Median": 41949.399,
+        "StdDev": "4.11%",
+        "Min": 41764.4,
+        "Max": 46540.876,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=512MB measureMode=Free)",
+        "Mean": 385.522,
+        "Median": 379.451,
+        "StdDev": "5.71%",
+        "Min": 357.383,
+        "Max": 419.812,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=512MB measureMode=Both)",
+        "Mean": 42272.685,
+        "Median": 42278.913,
+        "StdDev": "0.13%",
+        "Min": 42164.506,
+        "Max": 42352.877,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=1GB measureMode=Allocate)",
+        "Mean": 85075.673,
+        "Median": 84492.503,
+        "StdDev": "2.94%",
+        "Min": 82742.876,
+        "Max": 90544.873,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=1GB measureMode=Free)",
+        "Mean": 924.0,
+        "Median": 945.844,
+        "StdDev": "8.49%",
+        "Min": 817.899,
+        "Max": 1046.301,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "UsmMemoryAllocation(api=l0 type=Shared size=1GB measureMode=Both)",
+        "Mean": 85459.82,
+        "Median": 84702.976,
+        "StdDev": "2.07%",
+        "Min": 83561.849,
+        "Max": 88513.705,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      }
+    ],
+    "api_overhead_benchmark_l0/ExecuteCommandList": [
+      {
+        "TestCase": "ExecuteCommandList(api=l0 UseFence=0 measureCompletionTime=0)",
+        "Mean": 3.091,
+        "Median": 2.152,
+        "StdDev": "95.49%",
+        "Min": 1.617,
+        "Max": 11.846,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandList(api=l0 UseFence=1 measureCompletionTime=1)",
+        "Mean": 12.011,
+        "Median": 8.376,
+        "StdDev": "89.07%",
+        "Min": 7.2,
+        "Max": 43.971,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandList(api=l0 UseFence=0 measureCompletionTime=0)",
+        "Mean": 5.237,
+        "Median": 4.908,
+        "StdDev": "18.44%",
+        "Min": 4.787,
+        "Max": 8.123,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListForCopyEngine(api=l0 UseFence=0 measureCompletionTime=0)",
+        "Mean": 2.725,
+        "Median": 2.494,
+        "StdDev": "20.16%",
+        "Min": 2.345,
+        "Max": 4.236,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListForCopyEngine(api=l0 UseFence=0 measureCompletionTime=1)",
+        "Mean": 7.596,
+        "Median": 7.083,
+        "StdDev": "14.96%",
+        "Min": 6.694,
+        "Max": 10.171,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListForCopyEngine(api=l0 UseFence=1 measureCompletionTime=0)",
+        "Mean": 2.475,
+        "Median": 1.799,
+        "StdDev": "79.18%",
+        "Min": 1.742,
+        "Max": 8.347,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListForCopyEngine(api=l0 UseFence=1 measureCompletionTime=1)",
+        "Mean": 5.014,
+        "Median": 4.876,
+        "StdDev": "7.69%",
+        "Min": 4.678,
+        "Max": 6.016,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 3.712,
+        "Median": 3.215,
+        "StdDev": "28.10%",
+        "Min": 3.182,
+        "Max": 6.739,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 11.763,
+        "Median": 9.302,
+        "StdDev": "61.92%",
+        "Min": 9.08,
+        "Max": 33.607,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 11.127,
+        "Median": 9.573,
+        "StdDev": "28.31%",
+        "Min": 9.414,
+        "Max": 18.947,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 20.317,
+        "Median": 16.731,
+        "StdDev": "42.75%",
+        "Min": 16.289,
+        "Max": 45.433,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 15.919,
+        "Median": 15.027,
+        "StdDev": "15.66%",
+        "Min": 14.899,
+        "Max": 23.368,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 12.177,
+        "Median": 11.456,
+        "StdDev": "15.92%",
+        "Min": 11.256,
+        "Max": 17.929,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 17.489,
+        "Median": 15.561,
+        "StdDev": "30.57%",
+        "Min": 15.436,
+        "Max": 33.49,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 12.799,
+        "Median": 11.549,
+        "StdDev": "27.63%",
+        "Min": 11.34,
+        "Max": 23.36,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 12.206,
+        "Median": 11.395,
+        "StdDev": "14.70%",
+        "Min": 11.247,
+        "Max": 17.137,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 12.201,
+        "Median": 11.549,
+        "StdDev": "14.75%",
+        "Min": 11.439,
+        "Max": 17.567,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 13.816,
+        "Median": 12.019,
+        "StdDev": "29.77%",
+        "Min": 11.933,
+        "Max": 25.85,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 18.998,
+        "Median": 16.97,
+        "StdDev": "33.78%",
+        "Min": 15.646,
+        "Max": 38.071,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 10.797,
+        "Median": 11.48,
+        "StdDev": "14.92%",
+        "Min": 7.36,
+        "Max": 12.407,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 12.554,
+        "Median": 11.622,
+        "StdDev": "16.65%",
+        "Min": 11.49,
+        "Max": 18.597,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 17.439,
+        "Median": 15.841,
+        "StdDev": "25.81%",
+        "Min": 15.559,
+        "Max": 30.884,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 11.155,
+        "Median": 9.475,
+        "StdDev": "44.22%",
+        "Min": 9.216,
+        "Max": 25.927,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 14.474,
+        "Median": 13.924,
+        "StdDev": "10.95%",
+        "Min": 13.787,
+        "Max": 19.21,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 18.433,
+        "Median": 14.27,
+        "StdDev": "64.06%",
+        "Min": 14.091,
+        "Max": 53.818,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 17.035,
+        "Median": 14.809,
+        "StdDev": "25.90%",
+        "Min": 14.539,
+        "Max": 29.01,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 13.349,
+        "Median": 11.79,
+        "StdDev": "20.31%",
+        "Min": 11.561,
+        "Max": 20.581,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 17.817,
+        "Median": 17.281,
+        "StdDev": "9.93%",
+        "Min": 16.912,
+        "Max": 23.085,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 16.244,
+        "Median": 14.718,
+        "StdDev": "26.27%",
+        "Min": 14.405,
+        "Max": 28.988,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 20.45,
+        "Median": 18.546,
+        "StdDev": "18.91%",
+        "Min": 15.457,
+        "Max": 27.405,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 13.361,
+        "Median": 11.771,
+        "StdDev": "20.24%",
+        "Min": 11.465,
+        "Max": 19.325,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 30.248,
+        "Median": 29.787,
+        "StdDev": "3.54%",
+        "Min": 29.565,
+        "Max": 33.214,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 32.096,
+        "Median": 31.731,
+        "StdDev": "3.72%",
+        "Min": 31.354,
+        "Max": 35.606,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 34.904,
+        "Median": 32.175,
+        "StdDev": "16.91%",
+        "Min": 31.264,
+        "Max": 50.349,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 33.119,
+        "Median": 32.231,
+        "StdDev": "7.56%",
+        "Min": 31.975,
+        "Max": 40.595,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 32.785,
+        "Median": 30.538,
+        "StdDev": "18.28%",
+        "Min": 30.126,
+        "Max": 50.514,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 31.921,
+        "Median": 31.627,
+        "StdDev": "3.83%",
+        "Min": 30.558,
+        "Max": 35.39,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 35.471,
+        "Median": 32.934,
+        "StdDev": "14.87%",
+        "Min": 32.696,
+        "Max": 49.037,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 34.366,
+        "Median": 32.025,
+        "StdDev": "15.29%",
+        "Min": 31.735,
+        "Max": 49.282,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 91.903,
+        "Median": 88.741,
+        "StdDev": "7.55%",
+        "Min": 87.793,
+        "Max": 111.751,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 94.432,
+        "Median": 91.414,
+        "StdDev": "6.38%",
+        "Min": 90.834,
+        "Max": 110.942,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 94.044,
+        "Median": 89.234,
+        "StdDev": "9.29%",
+        "Min": 88.644,
+        "Max": 112.964,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 94.388,
+        "Median": 91.818,
+        "StdDev": "5.61%",
+        "Min": 91.339,
+        "Max": 106.73,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 124.05,
+        "Median": 122.684,
+        "StdDev": "5.58%",
+        "Min": 117.067,
+        "Max": 140.081,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 95.609,
+        "Median": 91.492,
+        "StdDev": "10.50%",
+        "Min": 91.23,
+        "Max": 125.12,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 111.02,
+        "Median": 92.918,
+        "StdDev": "45.70%",
+        "Min": 91.855,
+        "Max": 262.994,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 96.561,
+        "Median": 91.499,
+        "StdDev": "8.35%",
+        "Min": 91.269,
+        "Max": 117.186,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 89.977,
+        "Median": 88.982,
+        "StdDev": "2.44%",
+        "Min": 88.215,
+        "Max": 94.559,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 110.701,
+        "Median": 111.74,
+        "StdDev": "10.66%",
+        "Min": 91.759,
+        "Max": 127.665,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 93.108,
+        "Median": 89.148,
+        "StdDev": "12.25%",
+        "Min": 88.854,
+        "Max": 127.274,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 93.151,
+        "Median": 92.157,
+        "StdDev": "3.60%",
+        "Min": 91.4,
+        "Max": 103.152,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 94.149,
+        "Median": 91.492,
+        "StdDev": "4.94%",
+        "Min": 90.863,
+        "Max": 104.174,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 94.273,
+        "Median": 91.573,
+        "StdDev": "4.68%",
+        "Min": 91.247,
+        "Max": 102.846,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 95.439,
+        "Median": 92.44,
+        "StdDev": "6.54%",
+        "Min": 91.988,
+        "Max": 109.932,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 93.696,
+        "Median": 91.495,
+        "StdDev": "6.94%",
+        "Min": 91.271,
+        "Max": 113.205,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 97.424,
+        "Median": 93.138,
+        "StdDev": "13.32%",
+        "Min": 92.73,
+        "Max": 136.36,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 108.609,
+        "Median": 97.93,
+        "StdDev": "27.10%",
+        "Min": 92.996,
+        "Max": 195.554,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 104.519,
+        "Median": 91.276,
+        "StdDev": "28.71%",
+        "Min": 90.969,
+        "Max": 193.043,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 98.314,
+        "Median": 93.808,
+        "StdDev": "10.02%",
+        "Min": 93.532,
+        "Max": 126.946,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 35.922,
+        "Median": 35.597,
+        "StdDev": "2.69%",
+        "Min": 35.188,
+        "Max": 38.007,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 114.028,
+        "Median": 120.38,
+        "StdDev": "13.91%",
+        "Min": 93.199,
+        "Max": 144.078,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 99.84,
+        "Median": 97.609,
+        "StdDev": "5.82%",
+        "Min": 94.79,
+        "Max": 112.849,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 126.826,
+        "Median": 122.828,
+        "StdDev": "6.82%",
+        "Min": 122.098,
+        "Max": 149.047,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 112.896,
+        "Median": 108.915,
+        "StdDev": "8.39%",
+        "Min": 108.645,
+        "Max": 140.36,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 215.767,
+        "Median": 213.642,
+        "StdDev": "3.90%",
+        "Min": 198.484,
+        "Max": 227.974,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 116.766,
+        "Median": 112.024,
+        "StdDev": "7.71%",
+        "Min": 111.579,
+        "Max": 140.765,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 204.33,
+        "Median": 199.2,
+        "StdDev": "4.46%",
+        "Min": 198.431,
+        "Max": 227.659,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 120.52,
+        "Median": 117.792,
+        "StdDev": "5.49%",
+        "Min": 116.881,
+        "Max": 139.353,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 220.155,
+        "Median": 202.889,
+        "StdDev": "18.42%",
+        "Min": 199.371,
+        "Max": 338.936,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 116.595,
+        "Median": 113.157,
+        "StdDev": "6.70%",
+        "Min": 112.67,
+        "Max": 138.58,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=0 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 202.323,
+        "Median": 199.225,
+        "StdDev": "2.88%",
+        "Min": 198.646,
+        "Max": 215.583,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 9.493,
+        "Median": 9.149,
+        "StdDev": "9.73%",
+        "Min": 8.974,
+        "Max": 12.199,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 9.807,
+        "Median": 9.352,
+        "StdDev": "13.28%",
+        "Min": 9.132,
+        "Max": 13.688,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 11.866,
+        "Median": 9.578,
+        "StdDev": "43.45%",
+        "Min": 9.388,
+        "Max": 26.464,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 11.057,
+        "Median": 10.213,
+        "StdDev": "20.43%",
+        "Min": 10.105,
+        "Max": 17.797,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 12.929,
+        "Median": 12.264,
+        "StdDev": "13.94%",
+        "Min": 12.134,
+        "Max": 18.299,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 9.689,
+        "Median": 9.35,
+        "StdDev": "10.33%",
+        "Min": 9.163,
+        "Max": 12.663,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 14.552,
+        "Median": 13.427,
+        "StdDev": "19.12%",
+        "Min": 13.146,
+        "Max": 22.653,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 16.123,
+        "Median": 14.59,
+        "StdDev": "19.58%",
+        "Min": 14.225,
+        "Max": 24.002,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 9.553,
+        "Median": 9.192,
+        "StdDev": "10.82%",
+        "Min": 9.022,
+        "Max": 12.628,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 9.775,
+        "Median": 9.502,
+        "StdDev": "8.54%",
+        "Min": 9.381,
+        "Max": 12.263,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 12.122,
+        "Median": 9.768,
+        "StdDev": "39.99%",
+        "Min": 9.59,
+        "Max": 24.494,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 13.359,
+        "Median": 12.548,
+        "StdDev": "16.10%",
+        "Min": 12.435,
+        "Max": 19.76,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 21.498,
+        "Median": 20.395,
+        "StdDev": "10.75%",
+        "Min": 20.219,
+        "Max": 26.532,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 16.31,
+        "Median": 11.887,
+        "StdDev": "61.22%",
+        "Min": 11.594,
+        "Max": 45.811,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 24.931,
+        "Median": 22.591,
+        "StdDev": "25.88%",
+        "Min": 22.381,
+        "Max": 44.23,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 19.317,
+        "Median": 17.996,
+        "StdDev": "19.59%",
+        "Min": 17.687,
+        "Max": 30.618,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 25.657,
+        "Median": 25.185,
+        "StdDev": "5.14%",
+        "Min": 24.963,
+        "Max": 29.567,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 17.555,
+        "Median": 17.38,
+        "StdDev": "2.84%",
+        "Min": 17.172,
+        "Max": 18.943,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 16.446,
+        "Median": 14.307,
+        "StdDev": "21.11%",
+        "Min": 14.034,
+        "Max": 25.599,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 15.877,
+        "Median": 15.097,
+        "StdDev": "11.47%",
+        "Min": 14.895,
+        "Max": 21.162,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 29.806,
+        "Median": 28.934,
+        "StdDev": "7.84%",
+        "Min": 28.483,
+        "Max": 36.693,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 19.299,
+        "Median": 17.338,
+        "StdDev": "44.23%",
+        "Min": 13.534,
+        "Max": 44.173,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 25.299,
+        "Median": 23.137,
+        "StdDev": "20.15%",
+        "Min": 22.872,
+        "Max": 40.358,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 23.15,
+        "Median": 20.709,
+        "StdDev": "20.51%",
+        "Min": 20.274,
+        "Max": 34.608,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 40.95,
+        "Median": 40.461,
+        "StdDev": "3.08%",
+        "Min": 40.162,
+        "Max": 44.6,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 36.269,
+        "Median": 34.193,
+        "StdDev": "13.03%",
+        "Min": 33.963,
+        "Max": 49.555,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 38.394,
+        "Median": 35.21,
+        "StdDev": "14.09%",
+        "Min": 34.772,
+        "Max": 50.775,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 34.56,
+        "Median": 33.77,
+        "StdDev": "5.59%",
+        "Min": 33.567,
+        "Max": 40.222,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 41.566,
+        "Median": 41.049,
+        "StdDev": "3.02%",
+        "Min": 40.806,
+        "Max": 45.224,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 34.508,
+        "Median": 34.126,
+        "StdDev": "2.96%",
+        "Min": 33.834,
+        "Max": 37.438,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 35.96,
+        "Median": 34.602,
+        "StdDev": "10.30%",
+        "Min": 33.927,
+        "Max": 46.756,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=1 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 35.671,
+        "Median": 34.768,
+        "StdDev": "5.23%",
+        "Min": 34.217,
+        "Max": 40.736,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 114.777,
+        "Median": 110.163,
+        "StdDev": "8.16%",
+        "Min": 109.285,
+        "Max": 139.722,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 116.126,
+        "Median": 112.888,
+        "StdDev": "6.49%",
+        "Min": 112.522,
+        "Max": 137.742,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 114.456,
+        "Median": 110.456,
+        "StdDev": "7.41%",
+        "Min": 110.139,
+        "Max": 136.876,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 118.65,
+        "Median": 114.724,
+        "StdDev": "5.53%",
+        "Min": 113.939,
+        "Max": 132.792,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 118.168,
+        "Median": 114.453,
+        "StdDev": "4.84%",
+        "Min": 113.312,
+        "Max": 129.633,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 117.365,
+        "Median": 113.128,
+        "StdDev": "6.80%",
+        "Min": 112.354,
+        "Max": 138.738,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 118.643,
+        "Median": 115.168,
+        "StdDev": "6.05%",
+        "Min": 114.577,
+        "Max": 134.255,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 125.998,
+        "Median": 119.73,
+        "StdDev": "7.96%",
+        "Min": 118.685,
+        "Max": 146.458,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 114.408,
+        "Median": 110.077,
+        "StdDev": "8.68%",
+        "Min": 109.105,
+        "Max": 142.89,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 115.81,
+        "Median": 113.841,
+        "StdDev": "2.96%",
+        "Min": 113.257,
+        "Max": 123.572,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 115.146,
+        "Median": 111.061,
+        "StdDev": "8.00%",
+        "Min": 110.397,
+        "Max": 140.354,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 117.4,
+        "Median": 114.969,
+        "StdDev": "3.88%",
+        "Min": 114.064,
+        "Max": 126.412,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 116.477,
+        "Median": 113.239,
+        "StdDev": "6.09%",
+        "Min": 112.72,
+        "Max": 135.602,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 118.52,
+        "Median": 114.179,
+        "StdDev": "6.41%",
+        "Min": 113.135,
+        "Max": 133.041,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 117.84,
+        "Median": 115.38,
+        "StdDev": "4.25%",
+        "Min": 114.961,
+        "Max": 128.903,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=0 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 128.165,
+        "Median": 121.919,
+        "StdDev": "10.21%",
+        "Min": 118.77,
+        "Max": 163.713,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 128.146,
+        "Median": 124.675,
+        "StdDev": "5.58%",
+        "Min": 123.134,
+        "Max": 147.815,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 119.266,
+        "Median": 115.802,
+        "StdDev": "6.73%",
+        "Min": 114.914,
+        "Max": 141.141,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 40.633,
+        "Median": 40.236,
+        "StdDev": "2.99%",
+        "Min": 40.081,
+        "Max": 44.27,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 121.309,
+        "Median": 116.849,
+        "StdDev": "5.32%",
+        "Min": 115.94,
+        "Max": 134.063,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=0)",
+        "Mean": 132.314,
+        "Median": 128.243,
+        "StdDev": "6.86%",
+        "Min": 126.871,
+        "Max": 157.598,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=0 ioq=1)",
+        "Mean": 140.996,
+        "Median": 146.477,
+        "StdDev": "14.35%",
+        "Min": 114.594,
+        "Max": 170.87,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=0)",
+        "Mean": 124.951,
+        "Median": 121.897,
+        "StdDev": "5.23%",
+        "Min": 121.363,
+        "Max": 141.184,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=1 EventSync=1 ioq=1)",
+        "Mean": 135.68,
+        "Median": 122.191,
+        "StdDev": "18.23%",
+        "Min": 121.465,
+        "Max": 204.394,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 142.945,
+        "Median": 140.27,
+        "StdDev": "3.75%",
+        "Min": 138.772,
+        "Max": 155.629,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 209.415,
+        "Median": 206.08,
+        "StdDev": "3.91%",
+        "Min": 201.512,
+        "Max": 225.601,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 138.364,
+        "Median": 134.281,
+        "StdDev": "5.45%",
+        "Min": 131.803,
+        "Max": 155.235,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=0 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 204.341,
+        "Median": 201.031,
+        "StdDev": "3.01%",
+        "Min": 200.197,
+        "Max": 218.8,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=0)",
+        "Mean": 142.566,
+        "Median": 140.115,
+        "StdDev": "3.05%",
+        "Min": 138.415,
+        "Max": 150.859,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=0 ioq=1)",
+        "Mean": 221.345,
+        "Median": 219.476,
+        "StdDev": "3.80%",
+        "Min": 212.441,
+        "Max": 239.878,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=0)",
+        "Mean": 138.652,
+        "Median": 135.599,
+        "StdDev": "5.32%",
+        "Min": 131.823,
+        "Max": 156.733,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediate(api=l0 Profiling=1 CallsCount=10 MeasureCompletion=1 BarrierSynchro=1 KernelExecTime=100 EventSync=1 ioq=1)",
+        "Mean": 207.122,
+        "Median": 204.598,
+        "StdDev": "2.74%",
+        "Min": 203.186,
+        "Max": 222.237,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Device dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 5.971,
+        "Median": 5.631,
+        "StdDev": "15.05%",
+        "Min": 5.202,
+        "Max": 8.532,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Device dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6.775,
+        "Median": 6.156,
+        "StdDev": "18.08%",
+        "Min": 5.985,
+        "Max": 10.158,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Device dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 2.995,
+        "Median": 2.05,
+        "StdDev": "59.72%",
+        "Min": 1.948,
+        "Max": 7.901,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Device dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 2.697,
+        "Median": 2.262,
+        "StdDev": "39.69%",
+        "Min": 2.022,
+        "Max": 5.751,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Device dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 6474.23,
+        "Median": 6467.381,
+        "StdDev": "0.67%",
+        "Min": 6415.855,
+        "Max": 6550.198,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Device dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6407.968,
+        "Median": 6404.388,
+        "StdDev": "1.83%",
+        "Min": 6219.428,
+        "Max": 6699.863,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Host dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 2.606,
+        "Median": 2.441,
+        "StdDev": "23.01%",
+        "Min": 2.017,
+        "Max": 4.087,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Host dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 2.823,
+        "Median": 2.515,
+        "StdDev": "24.48%",
+        "Min": 2.225,
+        "Max": 4.578,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Host dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 2.158,
+        "Median": 2.044,
+        "StdDev": "12.17%",
+        "Min": 1.983,
+        "Max": 2.871,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Host dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 2.689,
+        "Median": 2.526,
+        "StdDev": "25.45%",
+        "Min": 2.155,
+        "Max": 4.636,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Host dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 7026.18,
+        "Median": 7042.26,
+        "StdDev": "0.87%",
+        "Min": 6923.207,
+        "Max": 7092.962,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=Host dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6890.56,
+        "Median": 6883.963,
+        "StdDev": "0.75%",
+        "Min": 6788.212,
+        "Max": 6966.004,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 6492.228,
+        "Median": 6476.113,
+        "StdDev": "0.72%",
+        "Min": 6440.79,
+        "Max": 6589.693,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6524.236,
+        "Median": 6519.233,
+        "StdDev": "0.78%",
+        "Min": 6431.629,
+        "Max": 6629.422,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 7369.508,
+        "Median": 7366.168,
+        "StdDev": "0.56%",
+        "Min": 7296.83,
+        "Max": 7434.36,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 7383.673,
+        "Median": 7368.62,
+        "StdDev": "0.76%",
+        "Min": 7317.649,
+        "Max": 7475.514,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 18644.844,
+        "Median": 18270.059,
+        "StdDev": "6.86%",
+        "Min": 16893.335,
+        "Max": 21268.424,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=0 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 17846.931,
+        "Median": 17698.87,
+        "StdDev": "3.98%",
+        "Min": 16679.535,
+        "Max": 19180.843,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Device dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 195.719,
+        "Median": 194.002,
+        "StdDev": "2.71%",
+        "Min": 191.726,
+        "Max": 211.275,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Device dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 208.451,
+        "Median": 207.216,
+        "StdDev": "6.63%",
+        "Min": 197.835,
+        "Max": 247.237,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Device dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 2381.38,
+        "Median": 2365.135,
+        "StdDev": "1.21%",
+        "Min": 2357.334,
+        "Max": 2429.178,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Device dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 2361.459,
+        "Median": 2361.896,
+        "StdDev": "0.13%",
+        "Min": 2357.371,
+        "Max": 2368.359,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Device dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 6522.875,
+        "Median": 6524.533,
+        "StdDev": "1.05%",
+        "Min": 6394.806,
+        "Max": 6677.226,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Device dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6449.868,
+        "Median": 6444.052,
+        "StdDev": "1.27%",
+        "Min": 6289.499,
+        "Max": 6627.766,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Host dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 2436.713,
+        "Median": 2431.793,
+        "StdDev": "0.45%",
+        "Min": 2428.312,
+        "Max": 2464.551,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Host dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 2439.66,
+        "Median": 2436.036,
+        "StdDev": "0.62%",
+        "Min": 2429.504,
+        "Max": 2483.98,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Host dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 2715.709,
+        "Median": 2713.498,
+        "StdDev": "0.27%",
+        "Min": 2712.012,
+        "Max": 2737.472,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Host dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 2719.384,
+        "Median": 2716.593,
+        "StdDev": "0.26%",
+        "Min": 2712.108,
+        "Max": 2734.047,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Host dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 6927.502,
+        "Median": 6894.064,
+        "StdDev": "1.70%",
+        "Min": 6794.741,
+        "Max": 7223.555,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=Host dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6881.16,
+        "Median": 6868.164,
+        "StdDev": "1.24%",
+        "Min": 6799.769,
+        "Max": 7119.149,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 6602.218,
+        "Median": 6588.71,
+        "StdDev": "0.91%",
+        "Min": 6532.104,
+        "Max": 6732.07,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6588.408,
+        "Median": 6611.796,
+        "StdDev": "1.03%",
+        "Min": 6475.897,
+        "Max": 6717.293,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 7532.535,
+        "Median": 7501.916,
+        "StdDev": "1.43%",
+        "Min": 7386.6,
+        "Max": 7757.415,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 7441.317,
+        "Median": 7453.758,
+        "StdDev": "0.66%",
+        "Min": 7330.488,
+        "Max": 7506.809,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 39048.145,
+        "Median": 40472.866,
+        "StdDev": "8.18%",
+        "Min": 33401.827,
+        "Max": 42855.479,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=1 MeasureCompletionTime=1 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 40299.109,
+        "Median": 41150.64,
+        "StdDev": "8.46%",
+        "Min": 34245.279,
+        "Max": 44438.627,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 6.936,
+        "Median": 6.5,
+        "StdDev": "22.87%",
+        "Min": 6.027,
+        "Max": 11.641,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=Device size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 16.349,
+        "Median": 15.282,
+        "StdDev": "17.31%",
+        "Min": 14.898,
+        "Max": 24.743,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 16.367,
+        "Median": 14.914,
+        "StdDev": "19.67%",
+        "Min": 14.705,
+        "Max": 25.312,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=Device size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 17.277,
+        "Median": 15.433,
+        "StdDev": "25.39%",
+        "Min": 14.892,
+        "Max": 29.581,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 10.006,
+        "Median": 8.838,
+        "StdDev": "46.72%",
+        "Min": 5.086,
+        "Max": 18.927,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=Host size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 4.935,
+        "Median": 3.611,
+        "StdDev": "58.08%",
+        "Min": 2.59,
+        "Max": 11.937,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 7.079,
+        "Median": 6.04,
+        "StdDev": "35.58%",
+        "Min": 5.733,
+        "Max": 14.28,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=Host size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 3.787,
+        "Median": 2.842,
+        "StdDev": "52.13%",
+        "Min": 2.556,
+        "Max": 8.86,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 7163.424,
+        "Median": 6940.422,
+        "StdDev": "9.17%",
+        "Min": 6503.899,
+        "Max": 8428.836,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 6947.857,
+        "Median": 6562.451,
+        "StdDev": "11.47%",
+        "Min": 6328.623,
+        "Max": 8657.683,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6854.205,
+        "Median": 6725.68,
+        "StdDev": "5.74%",
+        "Min": 6625.719,
+        "Max": 8020.067,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Device dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 6641.183,
+        "Median": 6650.06,
+        "StdDev": "1.04%",
+        "Min": 6492.748,
+        "Max": 6733.932,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 8.23,
+        "Median": 5.58,
+        "StdDev": "55.07%",
+        "Min": 4.942,
+        "Max": 18.092,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=Device size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 3.115,
+        "Median": 2.918,
+        "StdDev": "12.87%",
+        "Min": 2.714,
+        "Max": 3.827,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 5.479,
+        "Median": 5.296,
+        "StdDev": "9.31%",
+        "Min": 5.1,
+        "Max": 6.912,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=Device size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 3.76,
+        "Median": 2.99,
+        "StdDev": "38.36%",
+        "Min": 2.627,
+        "Max": 6.676,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 6.79,
+        "Median": 6.561,
+        "StdDev": "11.32%",
+        "Min": 5.807,
+        "Max": 8.295,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=Host size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 4.223,
+        "Median": 3.128,
+        "StdDev": "58.75%",
+        "Min": 2.616,
+        "Max": 10.439,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6.303,
+        "Median": 6.169,
+        "StdDev": "15.61%",
+        "Min": 5.034,
+        "Max": 8.617,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=Host size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 3.505,
+        "Median": 3.128,
+        "StdDev": "27.60%",
+        "Min": 2.983,
+        "Max": 6.324,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 7832.86,
+        "Median": 7857.689,
+        "StdDev": "1.52%",
+        "Min": 7623.058,
+        "Max": 7996.037,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 7667.362,
+        "Median": 7647.234,
+        "StdDev": "1.00%",
+        "Min": 7546.692,
+        "Max": 7778.354,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 7642.209,
+        "Median": 7738.233,
+        "StdDev": "3.02%",
+        "Min": 7163.828,
+        "Max": 7892.361,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=Host dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 7725.26,
+        "Median": 7777.948,
+        "StdDev": "1.55%",
+        "Min": 7479.074,
+        "Max": 7836.71,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 9409.927,
+        "Median": 7193.131,
+        "StdDev": "44.62%",
+        "Min": 6942.556,
+        "Max": 17901.778,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Device size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 6840.372,
+        "Median": 6835.376,
+        "StdDev": "1.20%",
+        "Min": 6688.608,
+        "Max": 7007.733,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6920.354,
+        "Median": 6893.292,
+        "StdDev": "1.48%",
+        "Min": 6784.803,
+        "Max": 7101.572,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Device size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 6862.164,
+        "Median": 6808.193,
+        "StdDev": "2.44%",
+        "Min": 6619.812,
+        "Max": 7177.704,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 8429.053,
+        "Median": 7989.634,
+        "StdDev": "14.15%",
+        "Min": 7678.794,
+        "Max": 11843.557,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Host size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 8794.458,
+        "Median": 8673.08,
+        "StdDev": "6.29%",
+        "Min": 7953.689,
+        "Max": 10104.463,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 8305.736,
+        "Median": 8289.985,
+        "StdDev": "3.64%",
+        "Min": 7833.764,
+        "Max": 8720.244,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=Host size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 8245.221,
+        "Median": 8244.472,
+        "StdDev": "1.84%",
+        "Min": 7917.911,
+        "Max": 8479.763,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 18193.082,
+        "Median": 18026.499,
+        "StdDev": "5.81%",
+        "Min": 16608.759,
+        "Max": 19791.962,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 18173.915,
+        "Median": 17988.238,
+        "StdDev": "3.81%",
+        "Min": 17485.224,
+        "Max": 19714.412,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 17891.367,
+        "Median": 17790.522,
+        "StdDev": "2.40%",
+        "Min": 17357.864,
+        "Max": 18612.837,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=0 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 18043.71,
+        "Median": 18054.736,
+        "StdDev": "3.24%",
+        "Min": 17304.395,
+        "Max": 18722.894,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 86.932,
+        "Median": 85.108,
+        "StdDev": "6.03%",
+        "Min": 84.228,
+        "Max": 102.571,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=Device size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 94.293,
+        "Median": 91.702,
+        "StdDev": "5.88%",
+        "Min": 90.522,
+        "Max": 110.135,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 94.327,
+        "Median": 92.166,
+        "StdDev": "6.14%",
+        "Min": 90.471,
+        "Max": 110.659,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=Device size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 93.971,
+        "Median": 91.573,
+        "StdDev": "5.81%",
+        "Min": 91.016,
+        "Max": 109.61,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 2972.869,
+        "Median": 2972.148,
+        "StdDev": "0.15%",
+        "Min": 2968.06,
+        "Max": 2983.209,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=Host size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 2359.527,
+        "Median": 2357.866,
+        "StdDev": "0.15%",
+        "Min": 2356.573,
+        "Max": 2368.059,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 2967.251,
+        "Median": 2965.548,
+        "StdDev": "0.14%",
+        "Min": 2964.152,
+        "Max": 2978.216,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=Host size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 2359.045,
+        "Median": 2357.204,
+        "StdDev": "0.14%",
+        "Min": 2356.799,
+        "Max": 2366.822,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 6741.558,
+        "Median": 6740.036,
+        "StdDev": "0.72%",
+        "Min": 6671.861,
+        "Max": 6850.352,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 6402.507,
+        "Median": 6416.944,
+        "StdDev": "1.17%",
+        "Min": 6251.921,
+        "Max": 6490.717,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 7042.064,
+        "Median": 6646.195,
+        "StdDev": "16.48%",
+        "Min": 6571.751,
+        "Max": 10516.449,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Device dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 6589.375,
+        "Median": 6578.984,
+        "StdDev": "1.66%",
+        "Min": 6452.023,
+        "Max": 6757.137,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 2422.84,
+        "Median": 2419.79,
+        "StdDev": "0.31%",
+        "Min": 2415.996,
+        "Max": 2437.361,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=Device size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 2432.311,
+        "Median": 2432.322,
+        "StdDev": "0.10%",
+        "Min": 2429.03,
+        "Max": 2436.456,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 2417.77,
+        "Median": 2416.119,
+        "StdDev": "0.14%",
+        "Min": 2415.205,
+        "Max": 2425.787,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=Device size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 2431.615,
+        "Median": 2430.569,
+        "StdDev": "0.12%",
+        "Min": 2429.408,
+        "Max": 2439.619,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 3270.948,
+        "Median": 3270.514,
+        "StdDev": "0.05%",
+        "Min": 3269.577,
+        "Max": 3275.318,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=Host size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 2713.943,
+        "Median": 2712.809,
+        "StdDev": "0.14%",
+        "Min": 2711.274,
+        "Max": 2724.716,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 3270.394,
+        "Median": 3269.882,
+        "StdDev": "0.05%",
+        "Min": 3268.607,
+        "Max": 3274.97,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=Host size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 2714.624,
+        "Median": 2713.606,
+        "StdDev": "0.15%",
+        "Min": 2711.405,
+        "Max": 2726.809,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 7072.735,
+        "Median": 7077.497,
+        "StdDev": "0.90%",
+        "Min": 6945.215,
+        "Max": 7144.244,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 6850.066,
+        "Median": 6844.338,
+        "StdDev": "1.04%",
+        "Min": 6713.026,
+        "Max": 6984.252,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6927.448,
+        "Median": 6879.288,
+        "StdDev": "1.50%",
+        "Min": 6802.446,
+        "Max": 7180.891,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=Host dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 6848.499,
+        "Median": 6823.677,
+        "StdDev": "0.96%",
+        "Min": 6769.018,
+        "Max": 6969.394,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Device size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 6699.163,
+        "Median": 6729.547,
+        "StdDev": "1.02%",
+        "Min": 6557.932,
+        "Max": 6771.827,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Device size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 6544.196,
+        "Median": 6553.261,
+        "StdDev": "1.07%",
+        "Min": 6413.856,
+        "Max": 6637.667,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Device size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 6684.394,
+        "Median": 6681.648,
+        "StdDev": "1.06%",
+        "Min": 6585.733,
+        "Max": 6814.89,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Device size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 6606.774,
+        "Median": 6607.551,
+        "StdDev": "0.92%",
+        "Min": 6464.418,
+        "Max": 6675.964,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Host size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 7566.512,
+        "Median": 7553.402,
+        "StdDev": "1.50%",
+        "Min": 7414.327,
+        "Max": 7866.031,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Host size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 7472.177,
+        "Median": 7473.677,
+        "StdDev": "0.75%",
+        "Min": 7340.768,
+        "Max": 7541.634,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Host size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 7581.145,
+        "Median": 7547.018,
+        "StdDev": "1.72%",
+        "Min": 7412.645,
+        "Max": 7890.431,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=Host size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 7491.231,
+        "Median": 7481.653,
+        "StdDev": "0.76%",
+        "Min": 7389.969,
+        "Max": 7564.607,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=0)",
+        "Mean": 43312.037,
+        "Median": 44144.727,
+        "StdDev": "8.07%",
+        "Min": 36053.801,
+        "Max": 47197.785,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=0 withCopyOffload=1)",
+        "Mean": 40325.618,
+        "Median": 41006.576,
+        "StdDev": "6.20%",
+        "Min": 34588.262,
+        "Max": 42930.459,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=0)",
+        "Mean": 41524.216,
+        "Median": 41565.647,
+        "StdDev": "9.70%",
+        "Min": 36953.895,
+        "Max": 47718.833,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateCopyQueue(api=l0 IsCopyOnly=0 MeasureCompletionTime=1 src=non-USM4KBAligned dst=non-USM4KBAligned size=64MB ioq=1 withCopyOffload=1)",
+        "Mean": 41053.672,
+        "Median": 41193.064,
+        "StdDev": "8.72%",
+        "Min": 34054.463,
+        "Max": 46012.99,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=1 ExecTime=1 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 8.101,
+        "Median": 7.989,
+        "StdDev": "4.24%",
+        "Min": 7.893,
+        "Max": 9.108,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=1 ExecTime=1 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 19.688,
+        "Median": 19.323,
+        "StdDev": "5.46%",
+        "Min": 19.084,
+        "Max": 22.878,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=1 ExecTime=1 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 42.808,
+        "Median": 40.021,
+        "StdDev": "14.20%",
+        "Min": 39.706,
+        "Max": 59.846,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=1 ExecTime=1 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 38.338,
+        "Median": 37.829,
+        "StdDev": "4.11%",
+        "Min": 37.552,
+        "Max": 43.032,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=1 ExecTime=100 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 20.058,
+        "Median": 19.175,
+        "StdDev": "9.69%",
+        "Min": 18.84,
+        "Max": 25.162,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=1 ExecTime=100 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 20.532,
+        "Median": 19.625,
+        "StdDev": "9.41%",
+        "Min": 19.421,
+        "Max": 25.553,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=1 ExecTime=100 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 41.475,
+        "Median": 40.187,
+        "StdDev": "6.20%",
+        "Min": 40.086,
+        "Max": 47.0,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=1 ExecTime=100 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 49.391,
+        "Median": 47.18,
+        "StdDev": "9.28%",
+        "Min": 46.992,
+        "Max": 60.909,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=4 ExecTime=1 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 123.271,
+        "Median": 125.518,
+        "StdDev": "16.06%",
+        "Min": 92.744,
+        "Max": 157.238,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=4 ExecTime=1 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 101.238,
+        "Median": 95.119,
+        "StdDev": "10.53%",
+        "Min": 94.576,
+        "Max": 127.515,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=4 ExecTime=1 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 198.967,
+        "Median": 195.583,
+        "StdDev": "2.82%",
+        "Min": 194.625,
+        "Max": 211.097,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=4 ExecTime=1 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 195.183,
+        "Median": 187.173,
+        "StdDev": "7.87%",
+        "Min": 185.69,
+        "Max": 235.349,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=4 ExecTime=100 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 99.925,
+        "Median": 92.982,
+        "StdDev": "10.63%",
+        "Min": 92.374,
+        "Max": 122.849,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=4 ExecTime=100 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 97.419,
+        "Median": 95.073,
+        "StdDev": "6.29%",
+        "Min": 87.399,
+        "Max": 109.447,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=4 ExecTime=100 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 199.968,
+        "Median": 195.805,
+        "StdDev": "3.36%",
+        "Min": 194.955,
+        "Max": 214.643,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=4 ExecTime=100 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 194.345,
+        "Median": 186.998,
+        "StdDev": "7.30%",
+        "Min": 185.884,
+        "Max": 230.103,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=16 ExecTime=1 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 387.572,
+        "Median": 376.778,
+        "StdDev": "5.95%",
+        "Min": 368.033,
+        "Max": 433.107,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=16 ExecTime=1 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 393.735,
+        "Median": 393.26,
+        "StdDev": "2.80%",
+        "Min": 378.966,
+        "Max": 415.834,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=16 ExecTime=1 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 813.724,
+        "Median": 812.474,
+        "StdDev": "2.37%",
+        "Min": 782.448,
+        "Max": 862.673,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=16 ExecTime=1 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 610.859,
+        "Median": 609.986,
+        "StdDev": "1.57%",
+        "Min": 596.845,
+        "Max": 629.203,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=16 ExecTime=100 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 301.828,
+        "Median": 296.685,
+        "StdDev": "2.59%",
+        "Min": 295.93,
+        "Max": 320.493,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=16 ExecTime=100 Barrier=0 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 318.832,
+        "Median": 314.464,
+        "StdDev": "4.97%",
+        "Min": 304.849,
+        "Max": 356.819,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=16 ExecTime=100 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=0)",
+        "Mean": 611.62,
+        "Median": 606.955,
+        "StdDev": "16.44%",
+        "Min": 470.621,
+        "Max": 845.647,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecImmediateMultiKernel(api=l0 CallsCount=16 ExecTime=100 Barrier=1 BeforeBarrierCnt=2 AfterBarrierCnt=2 ioq=1)",
+        "Mean": 618.959,
+        "Median": 607.75,
+        "StdDev": "5.74%",
+        "Min": 595.486,
+        "Max": 723.58,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithFenceCreate(api=l0)",
+        "Mean": 0.211,
+        "Median": 0.196,
+        "StdDev": "41.22%",
+        "Min": 0.143,
+        "Max": 0.457,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithFenceDestroy(api=l0)",
+        "Mean": 0.189,
+        "Median": 0.169,
+        "StdDev": "22.16%",
+        "Min": 0.156,
+        "Max": 0.297,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithFenceUsage(api=l0)",
+        "Mean": 7.806,
+        "Median": 7.346,
+        "StdDev": "14.28%",
+        "Min": 7.248,
+        "Max": 11.052,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectArguments(api=l0 AmountOfIndirectAllocations=0 placement=Shared)",
+        "Mean": 5.331,
+        "Median": 4.925,
+        "StdDev": "17.94%",
+        "Min": 4.789,
+        "Max": 8.083,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectArguments(api=l0 AmountOfIndirectAllocations=0 placement=Host)",
+        "Mean": 5.226,
+        "Median": 4.99,
+        "StdDev": "13.31%",
+        "Min": 4.804,
+        "Max": 7.218,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectArguments(api=l0 AmountOfIndirectAllocations=10 placement=Shared)",
+        "Mean": 5.486,
+        "Median": 5.332,
+        "StdDev": "12.19%",
+        "Min": 4.917,
+        "Max": 7.369,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectArguments(api=l0 AmountOfIndirectAllocations=10 placement=Host)",
+        "Mean": 5.358,
+        "Median": 5.118,
+        "StdDev": "13.97%",
+        "Min": 5.002,
+        "Max": 7.59,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectArguments(api=l0 AmountOfIndirectAllocations=100 placement=Shared)",
+        "Mean": 3.697,
+        "Median": 2.887,
+        "StdDev": "67.01%",
+        "Min": 2.541,
+        "Max": 11.097,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectArguments(api=l0 AmountOfIndirectAllocations=100 placement=Host)",
+        "Mean": 6.279,
+        "Median": 5.937,
+        "StdDev": "24.46%",
+        "Min": 5.001,
+        "Max": 10.637,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectArguments(api=l0 AmountOfIndirectAllocations=1000 placement=Shared)",
+        "Mean": 2.077,
+        "Median": 1.82,
+        "StdDev": "20.70%",
+        "Min": 1.739,
+        "Max": 3.144,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectArguments(api=l0 AmountOfIndirectAllocations=1000 placement=Host)",
+        "Mean": 6.223,
+        "Median": 5.473,
+        "StdDev": "34.92%",
+        "Min": 5.063,
+        "Max": 12.635,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectAccess(api=l0 AmountOfIndirectAllocations=10 AllocateMemory=0)",
+        "Mean": 4.212,
+        "Median": 3.561,
+        "StdDev": "45.66%",
+        "Min": 3.248,
+        "Max": 9.925,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectAccess(api=l0 AmountOfIndirectAllocations=10 AllocateMemory=1)",
+        "Mean": 7.399,
+        "Median": 6.721,
+        "StdDev": "25.45%",
+        "Min": 6.415,
+        "Max": 12.936,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectAccess(api=l0 AmountOfIndirectAllocations=100 AllocateMemory=0)",
+        "Mean": 10.171,
+        "Median": 9.874,
+        "StdDev": "8.35%",
+        "Min": 9.516,
+        "Max": 12.104,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectAccess(api=l0 AmountOfIndirectAllocations=100 AllocateMemory=1)",
+        "Mean": 9.429,
+        "Median": 9.152,
+        "StdDev": "10.12%",
+        "Min": 8.353,
+        "Max": 11.996,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectAccess(api=l0 AmountOfIndirectAllocations=1000 AllocateMemory=0)",
+        "Mean": 4.355,
+        "Median": 3.921,
+        "StdDev": "28.38%",
+        "Min": 3.264,
+        "Max": 7.215,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ExecuteCommandListWithIndirectAccess(api=l0 AmountOfIndirectAllocations=1000 AllocateMemory=1)",
+        "Mean": 3.595,
+        "Median": 3.463,
+        "StdDev": "15.23%",
+        "Min": 3.167,
+        "Max": 5.136,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      }
+    ],
+    "api_overhead_benchmark_l0/AppendLaunchKernel": [
+      {
+        "TestCase": "AppendLaunchKernel(api=l0 wgc=1 wgs=1 event=0 appendCount=100)",
+        "Mean": 2.038,
+        "Median": 1.912,
+        "StdDev": "17.07%",
+        "Min": 1.878,
+        "Max": 3.074,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "AppendLaunchKernel(api=l0 wgc=1 wgs=1 event=1 appendCount=100)",
+        "Mean": 3.059,
+        "Median": 3.034,
+        "StdDev": "4.86%",
+        "Min": 2.884,
+        "Max": 3.314,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "AppendLaunchKernel(api=l0 wgc=1 wgs=256 event=0 appendCount=100)",
+        "Mean": 4.414,
+        "Median": 4.386,
+        "StdDev": "1.49%",
+        "Min": 4.344,
+        "Max": 4.558,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "AppendLaunchKernel(api=l0 wgc=1 wgs=256 event=1 appendCount=100)",
+        "Mean": 5.57,
+        "Median": 5.73,
+        "StdDev": "10.13%",
+        "Min": 4.638,
+        "Max": 6.276,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "AppendLaunchKernel(api=l0 wgc=1000 wgs=1 event=0 appendCount=100)",
+        "Mean": 5.807,
+        "Median": 5.655,
+        "StdDev": "7.92%",
+        "Min": 5.524,
+        "Max": 7.152,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "AppendLaunchKernel(api=l0 wgc=1000 wgs=1 event=1 appendCount=100)",
+        "Mean": 6.196,
+        "Median": 6.222,
+        "StdDev": "1.63%",
+        "Min": 6.076,
+        "Max": 6.381,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "AppendLaunchKernel(api=l0 wgc=1000 wgs=256 event=0 appendCount=100)",
+        "Mean": 5.854,
+        "Median": 5.662,
+        "StdDev": "10.72%",
+        "Min": 5.525,
+        "Max": 7.711,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "AppendLaunchKernel(api=l0 wgc=1000 wgs=256 event=1 appendCount=100)",
+        "Mean": 6.21,
+        "Median": 6.213,
+        "StdDev": "1.68%",
+        "Min": 6.076,
+        "Max": 6.427,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      }
+    ],
+    "api_overhead_benchmark_l0/CreateCommandList": [
+      {
+        "TestCase": "CreateCommandList(api=l0 CmdListCount=100 CopyOnly=0)",
+        "Mean": 227.7,
+        "Median": 215.924,
+        "StdDev": "17.14%",
+        "Min": 207.348,
+        "Max": 343.754,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "CreateCommandList(api=l0 CmdListCount=100 CopyOnly=1)",
+        "Mean": 192.709,
+        "Median": 189.343,
+        "StdDev": "5.86%",
+        "Min": 173.162,
+        "Max": 215.998,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "CreateCommandListImmediate(api=l0 CmdListCount=100 ioq=0)",
+        "Mean": 410.816,
+        "Median": 339.524,
+        "StdDev": "30.90%",
+        "Min": 331.369,
+        "Max": 736.424,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "CreateCommandListImmediate(api=l0 CmdListCount=100 ioq=1)",
+        "Mean": 581.897,
+        "Median": 559.293,
+        "StdDev": "19.01%",
+        "Min": 455.347,
+        "Max": 777.338,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "CreateCommandListImmediate(api=l0 CmdListCount=1000 ioq=0)",
+        "Mean": 3018.726,
+        "Median": 2861.089,
+        "StdDev": "11.65%",
+        "Min": 2781.882,
+        "Max": 3996.124,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "CreateCommandListImmediate(api=l0 CmdListCount=1000 ioq=1)",
+        "Mean": 3399.704,
+        "Median": 3373.599,
+        "StdDev": "4.56%",
+        "Min": 3222.271,
+        "Max": 3663.665,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      }
+    ],
+    "api_overhead_benchmark_l0/EventCreation": [
+      {
+        "TestCase": "EventQueryStatus(api=l0 eventSignaled=0)",
+        "Mean": 1.557,
+        "Median": 1.55,
+        "StdDev": "3.00%",
+        "Min": 1.504,
+        "Max": 1.683,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventQueryStatus(api=l0 eventSignaled=1)",
+        "Mean": 0.08,
+        "Median": 0.075,
+        "StdDev": "21.95%",
+        "Min": 0.072,
+        "Max": 0.133,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=subdevice wait=subdevice eventCount=1000)",
+        "Mean": 1.415,
+        "Median": 1.289,
+        "StdDev": "44.47%",
+        "Min": 0.669,
+        "Max": 2.513,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=subdevice wait=device eventCount=1000)",
+        "Mean": 1.189,
+        "Median": 1.026,
+        "StdDev": "42.62%",
+        "Min": 0.664,
+        "Max": 2.281,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=subdevice wait=host eventCount=1000)",
+        "Mean": 1.598,
+        "Median": 1.841,
+        "StdDev": "44.11%",
+        "Min": 0.682,
+        "Max": 2.638,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=subdevice wait=none eventCount=1000)",
+        "Mean": 1.785,
+        "Median": 1.95,
+        "StdDev": "28.29%",
+        "Min": 0.939,
+        "Max": 2.633,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=device wait=subdevice eventCount=1000)",
+        "Mean": 1.266,
+        "Median": 1.069,
+        "StdDev": "44.85%",
+        "Min": 0.667,
+        "Max": 2.288,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=device wait=device eventCount=1000)",
+        "Mean": 1.226,
+        "Median": 1.034,
+        "StdDev": "44.01%",
+        "Min": 0.674,
+        "Max": 2.175,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=device wait=host eventCount=1000)",
+        "Mean": 1.288,
+        "Median": 0.93,
+        "StdDev": "56.91%",
+        "Min": 0.667,
+        "Max": 2.559,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=device wait=none eventCount=1000)",
+        "Mean": 1.244,
+        "Median": 0.866,
+        "StdDev": "56.58%",
+        "Min": 0.664,
+        "Max": 2.482,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=host wait=subdevice eventCount=1000)",
+        "Mean": 1.105,
+        "Median": 0.877,
+        "StdDev": "52.59%",
+        "Min": 0.663,
+        "Max": 2.351,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=host wait=device eventCount=1000)",
+        "Mean": 1.137,
+        "Median": 1.007,
+        "StdDev": "36.15%",
+        "Min": 0.672,
+        "Max": 1.939,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=host wait=host eventCount=1000)",
+        "Mean": 1.2,
+        "Median": 0.999,
+        "StdDev": "44.52%",
+        "Min": 0.666,
+        "Max": 2.125,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=host wait=none eventCount=1000)",
+        "Mean": 1.23,
+        "Median": 1.043,
+        "StdDev": "44.09%",
+        "Min": 0.665,
+        "Max": 2.175,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=none wait=subdevice eventCount=1000)",
+        "Mean": 1.189,
+        "Median": 0.994,
+        "StdDev": "46.40%",
+        "Min": 0.671,
+        "Max": 2.494,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=none wait=device eventCount=1000)",
+        "Mean": 1.225,
+        "Median": 1.015,
+        "StdDev": "44.73%",
+        "Min": 0.668,
+        "Max": 2.202,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=none wait=host eventCount=1000)",
+        "Mean": 1.243,
+        "Median": 0.916,
+        "StdDev": "55.29%",
+        "Min": 0.664,
+        "Max": 2.518,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=0 signal=none wait=none eventCount=1000)",
+        "Mean": 1.152,
+        "Median": 0.771,
+        "StdDev": "56.35%",
+        "Min": 0.661,
+        "Max": 2.337,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=subdevice wait=subdevice eventCount=1000)",
+        "Mean": 0.941,
+        "Median": 0.683,
+        "StdDev": "49.25%",
+        "Min": 0.657,
+        "Max": 1.934,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=subdevice wait=device eventCount=1000)",
+        "Mean": 1.105,
+        "Median": 1.0,
+        "StdDev": "36.51%",
+        "Min": 0.663,
+        "Max": 1.928,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=subdevice wait=host eventCount=1000)",
+        "Mean": 1.214,
+        "Median": 1.006,
+        "StdDev": "44.34%",
+        "Min": 0.668,
+        "Max": 2.179,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=subdevice wait=none eventCount=1000)",
+        "Mean": 1.223,
+        "Median": 1.03,
+        "StdDev": "43.76%",
+        "Min": 0.668,
+        "Max": 2.163,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=device wait=subdevice eventCount=1000)",
+        "Mean": 1.161,
+        "Median": 1.168,
+        "StdDev": "36.53%",
+        "Min": 0.662,
+        "Max": 1.933,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=device wait=device eventCount=1000)",
+        "Mean": 1.153,
+        "Median": 1.027,
+        "StdDev": "38.68%",
+        "Min": 0.662,
+        "Max": 1.962,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=device wait=host eventCount=1000)",
+        "Mean": 1.243,
+        "Median": 0.883,
+        "StdDev": "55.63%",
+        "Min": 0.663,
+        "Max": 2.494,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=device wait=none eventCount=1000)",
+        "Mean": 1.215,
+        "Median": 0.856,
+        "StdDev": "56.38%",
+        "Min": 0.662,
+        "Max": 2.515,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=host wait=subdevice eventCount=1000)",
+        "Mean": 1.19,
+        "Median": 0.916,
+        "StdDev": "51.88%",
+        "Min": 0.662,
+        "Max": 2.495,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=host wait=device eventCount=1000)",
+        "Mean": 1.169,
+        "Median": 0.942,
+        "StdDev": "46.00%",
+        "Min": 0.662,
+        "Max": 2.117,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=host wait=host eventCount=1000)",
+        "Mean": 1.106,
+        "Median": 0.901,
+        "StdDev": "44.10%",
+        "Min": 0.668,
+        "Max": 2.001,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=host wait=none eventCount=1000)",
+        "Mean": 1.311,
+        "Median": 0.841,
+        "StdDev": "60.09%",
+        "Min": 0.717,
+        "Max": 2.784,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=none wait=subdevice eventCount=1000)",
+        "Mean": 1.03,
+        "Median": 0.675,
+        "StdDev": "60.88%",
+        "Min": 0.652,
+        "Max": 2.495,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=none wait=device eventCount=1000)",
+        "Mean": 1.256,
+        "Median": 1.168,
+        "StdDev": "36.09%",
+        "Min": 0.666,
+        "Max": 1.916,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=none wait=host eventCount=1000)",
+        "Mean": 1.527,
+        "Median": 0.833,
+        "StdDev": "57.12%",
+        "Min": 0.815,
+        "Max": 2.811,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=0 hostVisible=1 signal=none wait=none eventCount=1000)",
+        "Mean": 1.514,
+        "Median": 1.006,
+        "StdDev": "53.52%",
+        "Min": 0.791,
+        "Max": 2.835,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=subdevice wait=subdevice eventCount=1000)",
+        "Mean": 1.237,
+        "Median": 0.842,
+        "StdDev": "49.90%",
+        "Min": 0.8,
+        "Max": 2.373,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=subdevice wait=device eventCount=1000)",
+        "Mean": 1.381,
+        "Median": 1.208,
+        "StdDev": "42.63%",
+        "Min": 0.802,
+        "Max": 2.467,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=subdevice wait=host eventCount=1000)",
+        "Mean": 1.497,
+        "Median": 1.24,
+        "StdDev": "46.32%",
+        "Min": 0.854,
+        "Max": 2.852,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=subdevice wait=none eventCount=1000)",
+        "Mean": 1.763,
+        "Median": 1.829,
+        "StdDev": "33.16%",
+        "Min": 0.908,
+        "Max": 2.52,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=device wait=subdevice eventCount=1000)",
+        "Mean": 1.226,
+        "Median": 1.112,
+        "StdDev": "39.58%",
+        "Min": 0.663,
+        "Max": 1.95,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=device wait=device eventCount=1000)",
+        "Mean": 1.249,
+        "Median": 1.05,
+        "StdDev": "43.39%",
+        "Min": 0.663,
+        "Max": 2.21,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=device wait=host eventCount=1000)",
+        "Mean": 1.361,
+        "Median": 0.942,
+        "StdDev": "54.52%",
+        "Min": 0.664,
+        "Max": 2.511,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=device wait=none eventCount=1000)",
+        "Mean": 1.348,
+        "Median": 0.929,
+        "StdDev": "54.03%",
+        "Min": 0.66,
+        "Max": 2.492,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=host wait=subdevice eventCount=1000)",
+        "Mean": 1.26,
+        "Median": 0.928,
+        "StdDev": "55.34%",
+        "Min": 0.664,
+        "Max": 2.484,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=host wait=device eventCount=1000)",
+        "Mean": 1.341,
+        "Median": 0.881,
+        "StdDev": "54.63%",
+        "Min": 0.68,
+        "Max": 2.498,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=host wait=host eventCount=1000)",
+        "Mean": 1.216,
+        "Median": 0.953,
+        "StdDev": "51.07%",
+        "Min": 0.666,
+        "Max": 2.488,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=host wait=none eventCount=1000)",
+        "Mean": 1.044,
+        "Median": 0.786,
+        "StdDev": "52.20%",
+        "Min": 0.663,
+        "Max": 2.225,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=none wait=subdevice eventCount=1000)",
+        "Mean": 1.203,
+        "Median": 0.831,
+        "StdDev": "68.33%",
+        "Min": 0.678,
+        "Max": 3.349,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=none wait=device eventCount=1000)",
+        "Mean": 1.193,
+        "Median": 0.833,
+        "StdDev": "55.69%",
+        "Min": 0.67,
+        "Max": 2.42,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=none wait=host eventCount=1000)",
+        "Mean": 1.245,
+        "Median": 0.903,
+        "StdDev": "55.43%",
+        "Min": 0.661,
+        "Max": 2.506,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=0 signal=none wait=none eventCount=1000)",
+        "Mean": 1.182,
+        "Median": 0.871,
+        "StdDev": "52.17%",
+        "Min": 0.657,
+        "Max": 2.217,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=subdevice wait=subdevice eventCount=1000)",
+        "Mean": 1.272,
+        "Median": 0.932,
+        "StdDev": "56.58%",
+        "Min": 0.662,
+        "Max": 2.51,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=subdevice wait=device eventCount=1000)",
+        "Mean": 1.215,
+        "Median": 0.909,
+        "StdDev": "51.00%",
+        "Min": 0.668,
+        "Max": 2.268,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=subdevice wait=host eventCount=1000)",
+        "Mean": 1.245,
+        "Median": 0.944,
+        "StdDev": "54.72%",
+        "Min": 0.67,
+        "Max": 2.494,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=subdevice wait=none eventCount=1000)",
+        "Mean": 1.252,
+        "Median": 0.893,
+        "StdDev": "55.94%",
+        "Min": 0.668,
+        "Max": 2.577,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=device wait=subdevice eventCount=1000)",
+        "Mean": 2.128,
+        "Median": 2.458,
+        "StdDev": "27.93%",
+        "Min": 0.909,
+        "Max": 2.568,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=device wait=device eventCount=1000)",
+        "Mean": 1.323,
+        "Median": 0.865,
+        "StdDev": "54.43%",
+        "Min": 0.667,
+        "Max": 2.383,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=device wait=host eventCount=1000)",
+        "Mean": 1.284,
+        "Median": 0.94,
+        "StdDev": "53.02%",
+        "Min": 0.719,
+        "Max": 2.595,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=device wait=none eventCount=1000)",
+        "Mean": 1.569,
+        "Median": 1.489,
+        "StdDev": "50.36%",
+        "Min": 0.679,
+        "Max": 2.586,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=host wait=subdevice eventCount=1000)",
+        "Mean": 1.094,
+        "Median": 0.811,
+        "StdDev": "56.57%",
+        "Min": 0.787,
+        "Max": 2.743,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=host wait=device eventCount=1000)",
+        "Mean": 1.917,
+        "Median": 2.254,
+        "StdDev": "34.23%",
+        "Min": 0.865,
+        "Max": 2.579,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=host wait=host eventCount=1000)",
+        "Mean": 2.069,
+        "Median": 2.248,
+        "StdDev": "38.54%",
+        "Min": 0.804,
+        "Max": 3.011,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=host wait=none eventCount=1000)",
+        "Mean": 0.996,
+        "Median": 0.856,
+        "StdDev": "35.35%",
+        "Min": 0.796,
+        "Max": 2.012,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=none wait=subdevice eventCount=1000)",
+        "Mean": 1.228,
+        "Median": 0.917,
+        "StdDev": "46.06%",
+        "Min": 0.8,
+        "Max": 2.426,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=none wait=device eventCount=1000)",
+        "Mean": 1.413,
+        "Median": 1.037,
+        "StdDev": "52.07%",
+        "Min": 0.798,
+        "Max": 2.835,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=none wait=host eventCount=1000)",
+        "Mean": 1.415,
+        "Median": 0.891,
+        "StdDev": "50.77%",
+        "Min": 0.802,
+        "Max": 2.636,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "EventCreation(api=l0 useProfiling=1 hostVisible=1 signal=none wait=none eventCount=1000)",
+        "Mean": 1.169,
+        "Median": 0.797,
+        "StdDev": "64.08%",
+        "Min": 0.787,
+        "Max": 2.737,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      }
+    ],
+    "api_overhead_benchmark_l0/ModuleCreate": [
+      {
+        "TestCase": "ModuleCreateSpv(api=l0 kernelName=api_overhead_benchmark_write_sum_local.spv)",
+        "Mean": 96.017,
+        "Median": 86.182,
+        "StdDev": "19.73%",
+        "Min": 84.512,
+        "Max": 149.053,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "ModuleCreateSpv(api=l0 kernelName=api_overhead_benchmark_global_consts.spv)",
+        "Mean": 432.806,
+        "Median": 400.784,
+        "StdDev": "18.43%",
+        "Min": 359.336,
+        "Max": 605.583,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      }
+    ],
+    "api_overhead_benchmark_l0/DriverGet": [
+      {
+        "TestCase": "DriverGet(api=l0 getDriverCount=0)",
+        "Mean": 0.071,
+        "Median": 0.068,
+        "StdDev": "17.55%",
+        "Min": 0.066,
+        "Max": 0.109,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "DriverGet(api=l0 getDriverCount=1)",
+        "Mean": 0.062,
+        "Median": 0.059,
+        "StdDev": "14.83%",
+        "Min": 0.057,
+        "Max": 0.089,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "DriverGet(api=l0 getDriverCount=1)",
+        "Mean": 0.146,
+        "Median": 0.142,
+        "StdDev": "8.47%",
+        "Min": 0.139,
+        "Max": 0.182,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "DriverGetApiVersion(api=l0)",
+        "Mean": 0.144,
+        "Median": 0.132,
+        "StdDev": "23.12%",
+        "Min": 0.129,
+        "Max": 0.243,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "DriverGetProperties(api=l0)",
+        "Mean": 0.149,
+        "Median": 0.14,
+        "StdDev": "15.71%",
+        "Min": 0.135,
+        "Max": 0.217,
+        "Type": "[CPU]",
+        "null": [
+          "[us]"
+        ]
+      }
+    ],
+    "memory_benchmark_l0/CopyBuffer": [
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=8192:1:1 src=Device size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 58.373,
+        "Median": 63.015,
+        "StdDev": "19.15%",
+        "Min": 32.316,
+        "Max": 66.332,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=8192:1:1 src=Host size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 19.548,
+        "Median": 19.849,
+        "StdDev": "5.52%",
+        "Min": 16.368,
+        "Max": 20.328,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=16384:1:1 src=Device size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 151.991,
+        "Median": 157.538,
+        "StdDev": "11.59%",
+        "Min": 100.825,
+        "Max": 168.041,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=16384:1:1 src=Host size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 22.576,
+        "Median": 24.006,
+        "StdDev": "19.03%",
+        "Min": 9.695,
+        "Max": 24.237,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=256:512:1 src=Device size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 242.662,
+        "Median": 242.951,
+        "StdDev": "0.36%",
+        "Min": 240.059,
+        "Max": 242.951,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=256:512:1 src=Host size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 27.45,
+        "Median": 27.473,
+        "StdDev": "0.11%",
+        "Min": 27.398,
+        "Max": 27.473,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=512:512:1 src=Device size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 334.976,
+        "Median": 334.693,
+        "StdDev": "0.55%",
+        "Min": 333.305,
+        "Max": 338.906,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=512:512:1 src=Host size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 27.605,
+        "Median": 27.623,
+        "StdDev": "0.32%",
+        "Min": 27.454,
+        "Max": 27.699,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=512:512:2 src=Device size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 330.18,
+        "Median": 329.898,
+        "StdDev": "0.64%",
+        "Min": 326.557,
+        "Max": 333.305,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=512:512:2 src=Host size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 27.623,
+        "Median": 27.766,
+        "StdDev": "1.34%",
+        "Min": 26.524,
+        "Max": 27.785,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=512:512:64 src=Device size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 340.584,
+        "Median": 340.583,
+        "StdDev": "0.10%",
+        "Min": 340.067,
+        "Max": 341.101,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "CopyBufferToImage(api=l0 region=512:512:64 src=Host size=512MB forceBlitter=0 useEvents=1)",
+        "Mean": 27.9,
+        "Median": 27.918,
+        "StdDev": "0.12%",
+        "Min": 27.838,
+        "Max": 27.925,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      }
+    ],
+    "memory_benchmark_l0/FillBuffer": [
+      {
+        "TestCase": "UsmFill(api=l0 memory=Host size=128MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 22.758,
+        "Median": 22.77,
+        "StdDev": "0.11%",
+        "Min": 22.709,
+        "Max": 22.77,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Host size=128MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=1 useEvents=1)",
+        "Mean": 28.385,
+        "Median": 28.385,
+        "StdDev": "0.00%",
+        "Min": 28.384,
+        "Max": 28.387,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Host size=128MB contents=Zeros patternSize=4 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 22.77,
+        "Median": 22.77,
+        "StdDev": "0.00%",
+        "Min": 22.769,
+        "Max": 22.77,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Host size=128MB contents=Zeros patternSize=16 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 22.766,
+        "Median": 22.767,
+        "StdDev": "0.00%",
+        "Min": 22.764,
+        "Max": 22.767,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Host size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 22.772,
+        "Median": 22.772,
+        "StdDev": "0.00%",
+        "Min": 22.772,
+        "Max": 22.772,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Host size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=1 useEvents=1)",
+        "Mean": 28.387,
+        "Median": 28.387,
+        "StdDev": "0.00%",
+        "Min": 28.386,
+        "Max": 28.387,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Host size=512MB contents=Zeros patternSize=4 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 22.772,
+        "Median": 22.772,
+        "StdDev": "0.00%",
+        "Min": 22.771,
+        "Max": 22.772,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Host size=512MB contents=Zeros patternSize=16 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 22.771,
+        "Median": 22.771,
+        "StdDev": "0.00%",
+        "Min": 22.771,
+        "Max": 22.771,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Device size=128MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 700.597,
+        "Median": 708.903,
+        "StdDev": "4.59%",
+        "Min": 605.042,
+        "Max": 720.176,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Device size=128MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=1 useEvents=1)",
+        "Mean": 444.347,
+        "Median": 447.023,
+        "StdDev": "1.78%",
+        "Min": 420.65,
+        "Max": 447.1,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Device size=128MB contents=Zeros patternSize=4 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 678.449,
+        "Median": 677.457,
+        "StdDev": "0.68%",
+        "Min": 670.07,
+        "Max": 688.296,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Device size=128MB contents=Zeros patternSize=16 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 537.345,
+        "Median": 550.578,
+        "StdDev": "4.13%",
+        "Min": 482.811,
+        "Max": 550.813,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Device size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 688.44,
+        "Median": 688.617,
+        "StdDev": "0.29%",
+        "Min": 685.281,
+        "Max": 691.431,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Device size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=1 useEvents=1)",
+        "Mean": 446.623,
+        "Median": 447.352,
+        "StdDev": "0.51%",
+        "Min": 439.75,
+        "Max": 447.527,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Device size=512MB contents=Zeros patternSize=4 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 656.887,
+        "Median": 658.783,
+        "StdDev": "0.86%",
+        "Min": 641.27,
+        "Max": 661.569,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Device size=512MB contents=Zeros patternSize=16 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 554.553,
+        "Median": 554.541,
+        "StdDev": "0.01%",
+        "Min": 554.481,
+        "Max": 554.6,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Shared size=128MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 717.132,
+        "Median": 712.62,
+        "StdDev": "1.04%",
+        "Min": 708.318,
+        "Max": 728.304,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Shared size=128MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=1 useEvents=1)",
+        "Mean": 447.0,
+        "Median": 447.062,
+        "StdDev": "0.07%",
+        "Min": 446.173,
+        "Max": 447.255,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Shared size=128MB contents=Zeros patternSize=4 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 680.44,
+        "Median": 680.326,
+        "StdDev": "1.15%",
+        "Min": 666.954,
+        "Max": 694.968,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Shared size=128MB contents=Zeros patternSize=16 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 550.79,
+        "Median": 550.813,
+        "StdDev": "0.02%",
+        "Min": 550.578,
+        "Max": 551.048,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Shared size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 686.115,
+        "Median": 685.508,
+        "StdDev": "0.29%",
+        "Min": 684.463,
+        "Max": 691.245,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Shared size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=1 useEvents=1)",
+        "Mean": 447.424,
+        "Median": 447.42,
+        "StdDev": "0.02%",
+        "Min": 447.294,
+        "Max": 447.507,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Shared size=512MB contents=Zeros patternSize=4 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 654.666,
+        "Median": 654.523,
+        "StdDev": "0.39%",
+        "Min": 649.418,
+        "Max": 659.793,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFill(api=l0 memory=Shared size=512MB contents=Zeros patternSize=16 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 553.565,
+        "Median": 554.6,
+        "StdDev": "0.55%",
+        "Min": 544.423,
+        "Max": 554.6,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Host size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 22.722,
+        "Median": 22.721,
+        "StdDev": "0.00%",
+        "Min": 22.721,
+        "Max": 22.722,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Host size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=1 useEvents=1)",
+        "Mean": 28.362,
+        "Median": 28.362,
+        "StdDev": "0.00%",
+        "Min": 28.362,
+        "Max": 28.363,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Host size=512MB contents=Zeros patternSize=4 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 22.721,
+        "Median": 22.721,
+        "StdDev": "0.00%",
+        "Min": 22.721,
+        "Max": 22.722,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Host size=512MB contents=Zeros patternSize=16 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 22.72,
+        "Median": 22.72,
+        "StdDev": "0.00%",
+        "Min": 22.72,
+        "Max": 22.721,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Device size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 686.666,
+        "Median": 687.7,
+        "StdDev": "0.81%",
+        "Min": 672.427,
+        "Max": 693.381,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Device size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=1 useEvents=1)",
+        "Mean": 447.434,
+        "Median": 447.43,
+        "StdDev": "0.01%",
+        "Min": 447.352,
+        "Max": 447.527,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Device size=512MB contents=Zeros patternSize=4 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 657.726,
+        "Median": 657.985,
+        "StdDev": "0.37%",
+        "Min": 651.795,
+        "Max": 662.078,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Device size=512MB contents=Zeros patternSize=16 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 553.969,
+        "Median": 555.018,
+        "StdDev": "0.56%",
+        "Min": 544.653,
+        "Max": 555.077,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Shared size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 687.517,
+        "Median": 686.785,
+        "StdDev": "0.37%",
+        "Min": 684.826,
+        "Max": 693.66,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Shared size=512MB contents=Zeros patternSize=1 patternContents=Random forceBlitter=1 useEvents=1)",
+        "Mean": 447.356,
+        "Median": 447.342,
+        "StdDev": "0.02%",
+        "Min": 447.139,
+        "Max": 447.585,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Shared size=512MB contents=Zeros patternSize=4 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 655.868,
+        "Median": 656.479,
+        "StdDev": "0.69%",
+        "Min": 643.99,
+        "Max": 660.722,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillImmediate(api=l0 memory=Shared size=512MB contents=Zeros patternSize=16 patternContents=Random forceBlitter=0 useEvents=1)",
+        "Mean": 555.054,
+        "Median": 555.077,
+        "StdDev": "0.02%",
+        "Min": 554.898,
+        "Max": 555.137,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillMultipleBlits(api=l0 memory=Device size=512MB patternSize=1 patternContents=Zeros blitters=000000001)",
+        "Mean": 447.47,
+        "Median": 447.468,
+        "StdDev": "0.02%",
+        "Min": 447.275,
+        "Max": 447.643,
+        "Type": "[GPU]",
+        "null": [
+          "BCS [GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillMultipleBlits(api=l0 memory=Device size=512MB patternSize=1 patternContents=Zeros blitters=000000001)",
+        "Mean": 442.22,
+        "Median": 442.593,
+        "StdDev": "0.21%",
+        "Min": 439.88,
+        "Max": 443.229,
+        "Type": "[CPU]",
+        "null": [
+          "Total (Cpu) [GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillMultipleBlits(api=l0 memory=Device size=512MB patternSize=1 patternContents=Zeros blitters=000000001)",
+        "Mean": 447.47,
+        "Median": 447.468,
+        "StdDev": "0.02%",
+        "Min": 447.275,
+        "Max": 447.643,
+        "Type": "[GPU]",
+        "null": [
+          "Total (Gpu) [GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillMultipleBlits(api=l0 memory=Device size=512MB patternSize=1 patternContents=Random blitters=000000001)",
+        "Mean": 447.434,
+        "Median": 447.42,
+        "StdDev": "0.01%",
+        "Min": 447.391,
+        "Max": 447.565,
+        "Type": "[GPU]",
+        "null": [
+          "BCS [GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillMultipleBlits(api=l0 memory=Device size=512MB patternSize=1 patternContents=Random blitters=000000001)",
+        "Mean": 441.736,
+        "Median": 441.97,
+        "StdDev": "0.15%",
+        "Min": 440.089,
+        "Max": 442.274,
+        "Type": "[CPU]",
+        "null": [
+          "Total (Cpu) [GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillMultipleBlits(api=l0 memory=Device size=512MB patternSize=1 patternContents=Random blitters=000000001)",
+        "Mean": 447.434,
+        "Median": 447.42,
+        "StdDev": "0.01%",
+        "Min": 447.391,
+        "Max": 447.565,
+        "Type": "[GPU]",
+        "null": [
+          "Total (Gpu) [GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillSpecificPattern(api=l0 memory=Host size=128MB contents=Zeros pattern=0x0001AA0B forceBlitter=0 useEvents=1)",
+        "Mean": 22.769,
+        "Median": 22.77,
+        "StdDev": "0.02%",
+        "Min": 22.756,
+        "Max": 22.77,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillSpecificPattern(api=l0 memory=Host size=512MB contents=Zeros pattern=0x0001AA0B forceBlitter=0 useEvents=1)",
+        "Mean": 22.772,
+        "Median": 22.772,
+        "StdDev": "0.00%",
+        "Min": 22.772,
+        "Max": 22.773,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillSpecificPattern(api=l0 memory=Device size=128MB contents=Zeros pattern=0x0001AA0B forceBlitter=0 useEvents=1)",
+        "Mean": 677.935,
+        "Median": 677.991,
+        "StdDev": "0.49%",
+        "Min": 672.865,
+        "Max": 684.645,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillSpecificPattern(api=l0 memory=Device size=512MB contents=Zeros pattern=0x0001AA0B forceBlitter=0 useEvents=1)",
+        "Mean": 656.94,
+        "Median": 656.02,
+        "StdDev": "0.40%",
+        "Min": 654.44,
+        "Max": 664.037,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillSpecificPattern(api=l0 memory=Shared size=128MB contents=Zeros pattern=0x0001AA0B forceBlitter=0 useEvents=1)",
+        "Mean": 678.027,
+        "Median": 676.748,
+        "StdDev": "1.27%",
+        "Min": 666.954,
+        "Max": 700.247,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmFillSpecificPattern(api=l0 memory=Shared size=512MB contents=Zeros pattern=0x0001AA0B forceBlitter=0 useEvents=1)",
+        "Mean": 653.917,
+        "Median": 655.895,
+        "StdDev": "0.70%",
+        "Min": 642.307,
+        "Max": 658.362,
+        "Type": "[GPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=0 preferredLocation=None forceBlitter=0)",
+        "Mean": 22.6,
+        "Median": 22.599,
+        "StdDev": "0.24%",
+        "Min": 22.497,
+        "Max": 22.693,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=0 preferredLocation=None forceBlitter=1)",
+        "Mean": 18.076,
+        "Median": 18.112,
+        "StdDev": "0.51%",
+        "Min": 17.85,
+        "Max": 18.185,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=0 preferredLocation=System forceBlitter=0)",
+        "Mean": 22.529,
+        "Median": 22.577,
+        "StdDev": "0.59%",
+        "Min": 22.145,
+        "Max": 22.629,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=0 preferredLocation=System forceBlitter=1)",
+        "Mean": 17.93,
+        "Median": 18.132,
+        "StdDev": "2.44%",
+        "Min": 16.696,
+        "Max": 18.198,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=0 preferredLocation=Device forceBlitter=0)",
+        "Mean": 22.508,
+        "Median": 22.618,
+        "StdDev": "1.18%",
+        "Min": 21.758,
+        "Max": 22.653,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=0 preferredLocation=Device forceBlitter=1)",
+        "Mean": 18.204,
+        "Median": 18.149,
+        "StdDev": "1.17%",
+        "Min": 18.012,
+        "Max": 18.825,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=1 preferredLocation=None forceBlitter=0)",
+        "Mean": 22.459,
+        "Median": 22.546,
+        "StdDev": "1.08%",
+        "Min": 21.907,
+        "Max": 22.671,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=1 preferredLocation=None forceBlitter=1)",
+        "Mean": 18.131,
+        "Median": 18.122,
+        "StdDev": "0.44%",
+        "Min": 17.997,
+        "Max": 18.246,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=1 preferredLocation=System forceBlitter=0)",
+        "Mean": 22.497,
+        "Median": 22.584,
+        "StdDev": "0.76%",
+        "Min": 22.176,
+        "Max": 22.666,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=1 preferredLocation=System forceBlitter=1)",
+        "Mean": 18.468,
+        "Median": 18.093,
+        "StdDev": "6.65%",
+        "Min": 17.9,
+        "Max": 22.143,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=1 preferredLocation=Device forceBlitter=0)",
+        "Mean": 22.573,
+        "Median": 22.661,
+        "StdDev": "0.65%",
+        "Min": 22.284,
+        "Max": 22.694,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=128MB prefetch=1 preferredLocation=Device forceBlitter=1)",
+        "Mean": 18.092,
+        "Median": 18.088,
+        "StdDev": "0.54%",
+        "Min": 17.922,
+        "Max": 18.238,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=0 preferredLocation=None forceBlitter=0)",
+        "Mean": 19.266,
+        "Median": 18.795,
+        "StdDev": "4.31%",
+        "Min": 18.561,
+        "Max": 20.636,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=0 preferredLocation=None forceBlitter=1)",
+        "Mean": 18.467,
+        "Median": 18.404,
+        "StdDev": "1.34%",
+        "Min": 18.249,
+        "Max": 19.193,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=0 preferredLocation=System forceBlitter=0)",
+        "Mean": 18.711,
+        "Median": 18.704,
+        "StdDev": "0.29%",
+        "Min": 18.617,
+        "Max": 18.803,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=0 preferredLocation=System forceBlitter=1)",
+        "Mean": 18.376,
+        "Median": 18.408,
+        "StdDev": "0.51%",
+        "Min": 18.148,
+        "Max": 18.458,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=0 preferredLocation=Device forceBlitter=0)",
+        "Mean": 18.717,
+        "Median": 18.709,
+        "StdDev": "0.32%",
+        "Min": 18.621,
+        "Max": 18.85,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=0 preferredLocation=Device forceBlitter=1)",
+        "Mean": 18.536,
+        "Median": 18.346,
+        "StdDev": "3.26%",
+        "Min": 18.151,
+        "Max": 20.334,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=1 preferredLocation=None forceBlitter=0)",
+        "Mean": 18.719,
+        "Median": 18.737,
+        "StdDev": "0.47%",
+        "Min": 18.509,
+        "Max": 18.801,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=1 preferredLocation=None forceBlitter=1)",
+        "Mean": 20.243,
+        "Median": 20.273,
+        "StdDev": "0.67%",
+        "Min": 19.896,
+        "Max": 20.432,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=1 preferredLocation=System forceBlitter=0)",
+        "Mean": 18.691,
+        "Median": 18.721,
+        "StdDev": "0.40%",
+        "Min": 18.562,
+        "Max": 18.786,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=1 preferredLocation=System forceBlitter=1)",
+        "Mean": 18.398,
+        "Median": 18.424,
+        "StdDev": "0.48%",
+        "Min": 18.2,
+        "Max": 18.505,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=1 preferredLocation=Device forceBlitter=0)",
+        "Mean": 18.734,
+        "Median": 18.744,
+        "StdDev": "0.21%",
+        "Min": 18.67,
+        "Max": 18.781,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      },
+      {
+        "TestCase": "UsmSharedMigrateGpuForFill(api=l0 size=256MB prefetch=1 preferredLocation=Device forceBlitter=1)",
+        "Mean": 18.569,
+        "Median": 18.434,
+        "StdDev": "2.69%",
+        "Min": 18.212,
+        "Max": 20.049,
+        "Type": "[CPU]",
+        "null": [
+          "[GB/s]"
+        ]
+      }
+    ],
+    "gpu_cmds_benchmark_l0/Walker": [
+      {
+        "TestCase": "WaitOnEventFromWalker(api=l0 measuredCommands=500)",
+        "Mean": 0.114,
+        "Median": 0.114,
+        "StdDev": "0.00%",
+        "Min": 0.114,
+        "Max": 0.114,
+        "Type": "[GPU]",
+        "null": [
+          "[us]"
+        ]
+      },
+      {
+        "TestCase": "WaitOnEventFromWalker(api=l0 measuredCommands=1000)",
+        "Mean": 0.104,
+        "Median": 0.104,
+        "StdDev": "0.00%",
+        "Min": 0.104,
+        "Max": 0.104,
+        "Type": "[GPU]",
+        "null": [
+          "[us]"
+        ]
+      }
+    ],
+    "gpu_cmds_benchmark_l0/Execution": [
+      {
+        "TestCase": "WARNING: filter \"*Execution*\" did not match any test; no tests were run",
+        "Mean": null,
+        "Median": null,
+        "StdDev": null,
+        "Min": null,
+        "Max": null,
+        "Type": null
+      }
+    ]
+  }
+}

@@ -61,7 +61,7 @@ static TestResult run(const MemOpenIpcHandleArguments &arguments, Statistics &st
 
     // Warmup
     std::vector<ze_ipc_mem_handle_t> ipcHandles;
-    ipcHandles.reserve(arguments.AllocationsCount);
+    ipcHandles.resize(arguments.AllocationsCount);
     std::vector<void *> ipcPointers(arguments.AllocationsCount);
     for (int64_t i = 0; i < arguments.AllocationsCount; i++) {
         std::fill_n(ipcHandles[i].data, ZE_MAX_IPC_HANDLE_SIZE, static_cast<char>(0));

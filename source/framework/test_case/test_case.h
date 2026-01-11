@@ -88,8 +88,8 @@ class TestCase : public TestCaseBase {
     }
 
     void run(ArgumentContainerT &arguments) const {
-        arguments.iterations = Configuration::get().iterations;
-        arguments.noIntelExtensions = Configuration::get().noIntelExtensions;
+        arguments.TestCaseArgumentContainer::iterations = Configuration::get().iterations;
+        arguments.TestCaseArgumentContainer::noIntelExtensions = Configuration::get().noIntelExtensions;
 
         // Create statistics object
         const auto testCaseNameWithConfig = getTestCaseNameWithConfig(arguments, Configuration::get().dumpCommandLines);
